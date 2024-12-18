@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/feedFragment">
+
+    <fragment
+        android:id="@+id/feedFragment"
+        android:name="com.example.bookworm.FeedFragment"
+        android:label="Feed" />
+
+    <fragment
+        android:id="@+id/createFragment"
+        android:name="com.example.bookworm.CreateFragment"
+        android:label="Create" />
+
+    <fragment
+        android:id="@+id/favoritesFragment"
+        android:name="com.example.bookworm.FavoritesFragment"
+        android:label="Favorites" />
+
+
+</navigation>

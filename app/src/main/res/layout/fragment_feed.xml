@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Feed"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:padding="16dp"
+        android:textColor="@color/white"
+        android:background="@color/deep_purple"
+        android:elevation="4dp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/booksRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="8dp"
+        android:clipToPadding="false"
+        android:background="@color/white" />
+
+</LinearLayout>
